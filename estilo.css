@@ -1,0 +1,125 @@
+body{
+    background-color: #151515;
+}
+.Titulo2{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 50px;
+color: #18E7EE;
+}
+.Fuente2{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+color: #3597DF;
+}
+.container2{
+margin: 10px 10px 10px 0px;
+background-color: #3F3F3F;
+width: 200%;
+height: 400%;
+padding: 50%;
+box-shadow: 0 0 0 5px #3597DF;
+position: initial;
+
+}
+
+
+ul, li {
+padding: 1em;
+margin: 0;
+list-style: none inside;
+}
+ul.slider2 {
+position: static;
+width: 100px;
+height: 100px;
+
+}
+ul.slider2 li {
+position: static; 
+left: 4em;
+top: auto;
+width: 100px;
+height: 100px;
+}
+.slider2 {
+	width: 95%;
+	margin: 2%;
+	overflow: hidden;
+}
+
+.slider2 ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 10s infinite alternate linear;
+}
+
+.slider2 li {
+	width: 200%;
+	list-style: none;
+}
+
+.slider2 img {
+	width: 400px;
+    height: 300px;
+}
+
+@keyframes cambio {
+    
+        0% {margin-left: 0%;}
+        0% {margin-left: 0%;}
+        
+	10% {margin-left: 0%;}
+	20% {margin-left: 0%;}
+	
+	30% {margin-left: -75%;}
+	40% {margin-left: -75%;}
+	
+	50% {margin-left: -150%;}
+	60% {margin-left: -150%;}
+	
+	70% {margin-left: -230%;}
+	80% {margin-left: -230%;}
+        
+        90% {margin-left: -300%;}
+        100% {margin-left: -300%;}
+        
+        100% {margin-left: -300%;}
+        100% {margin-left: -300%;}
+      
+}
+
+ul.slider2 li img {
+width: 100%;
+height: 400px;
+padding-left: 100%;
+border-top-left-radius: 500px 100px;
+border-bottom-right-radius: 50px 100px;
+object-fit: scale-down;
+}
+.menu2 {   
+text-align: center;
+margin: auto;
+}
+.menu2 li {
+display:  inline-block;
+text-align: center;
+}
+.menu2 li a {
+display: inline-block;
+color: blue;
+text-decoration: none;
+background-color: #FFFFFF;
+padding: 10px 50px 20px;
+width: 100%;
+height: 45px;
+border-top-left-radius: 50px 100px;
+border-bottom-right-radius: 50px 100px;
+}
+.menu2 button {
+background-color: #FFFFFF;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #FFFFFF;
+border-style: none;
+}
